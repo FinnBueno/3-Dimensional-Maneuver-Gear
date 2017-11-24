@@ -2,9 +2,9 @@ package me.finnbon.maneuvergear.gear;
 
 import me.finnbon.maneuvergear.crafting.CraftingManager;
 import me.finnbon.maneuvergear.util.BlockUtil;
-import me.finnbon.maneuvergear.util.ParticleEffect;
 import org.bukkit.GameMode;
 import org.bukkit.Location;
+import org.bukkit.Particle;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.util.Vector;
@@ -132,7 +132,7 @@ class Hook {
                 return false;
             }
 
-            ParticleEffect.RED_DUST.display(140.0F, 140.0F, 140.0F, 0.004F, 0, origin, 257.0D);
+            origin.getWorld().spawnParticle(Particle.REDSTONE, origin, 0, 0.549019608F, 0.549019608F, 0.549019608F, 0F);
 
             origin.subtract(x * i, y * i, z * i);
         }
@@ -174,8 +174,8 @@ class Hook {
      */
     void stop() {
         tips.clear();
-        player.setFlying(player.getGameMode() == GameMode.SPECTATOR);
         player.setAllowFlight(player.getGameMode() == GameMode.CREATIVE || player.getGameMode() == GameMode.SPECTATOR);
+        player.setFlying(player.getGameMode() == GameMode.SPECTATOR);
     }
 
     /**
