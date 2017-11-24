@@ -1,0 +1,4 @@
+# The maximum amount of blocks a cable can reach!
+Range: 100
+# The amount of damage dealt to an entity when the cable hits them
+Damage: 2.0

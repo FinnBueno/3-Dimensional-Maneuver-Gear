@@ -1,0 +1,22 @@
+name: 3DManeuverGear
+author: finnbon AKA Finn_Bueno_
+version: 1.3
+description: Swing across the skies using 3DMG!
+main: me.finnbon.maneuvergear.ManeuverGear
+
+permissions:
+    3dmg.use:
+        description: Decides if a player can use the 3DMG.
+        default: true
+    3dmg.give:
+        description: Allow a player to use the 3dmg command on themselves
+        default: OP
+    3dmg.give.others:
+        description: Allow a player to use the 3dmg command on others
+        default: OP
+        children:
+            - 3dmg.give
+commands:
+    3dmg:
+        usage: /3dmg <gear|rope>
+        description: Command to get a 3DMG gear or rope without crafting
