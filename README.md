@@ -23,6 +23,13 @@ Drop the JAR in your plugins folder.
 
 If you believe to have found a bug, you may notify me of said problem or submit a Pull Request yourself. Telling me about it first is preferable, because I might already be working on a fix, for example.
 
+I am currently looking for translators! Here you can see which languages are in progress, and which have been added already! Please feel free to contact me if you'd like to translate the plugin. Your name will be listed on here as well as on [Spigot](https://www.spigotmc.org) as a contributer!
+
+ | Language | Status | Translator | GitHub Account | SpigotMC Account |
+ |----------|--------|------------|----------------|------------------|
+ | English | Done | Finn_Bueno_ | [GitHub](https://github.com/FinnBueno) | [SpigotMC](https://www.spigotmc.org/members/finnbon.37739/) |
+ | Dutch | WIP | Finn_Bueno_ | [GitHub](https://github.com/FinnBueno) | [SpigotMC](https://www.spigotmc.org/members/finnbon.37739/) |
+
 ## Authors
 
 * **Finn Bon** - *Author* - [Finn_Bueno_](https://github.com/FinnBueno)
