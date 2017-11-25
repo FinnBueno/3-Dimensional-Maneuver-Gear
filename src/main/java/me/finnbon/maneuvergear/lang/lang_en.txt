@@ -1,0 +1,9 @@
+no_perm: &cYou don't have permission to use that command!
+player_only: &cThat command is for players only!
+offline: &cThat player is not online!
+
+gear_name: &l&73D Maneuver Gear
+gear_lore: &8Used for extreme mobility
+
+rope_name: &l&8Rope
+rope_lore: &&8Used to make %&7|gear_name%
