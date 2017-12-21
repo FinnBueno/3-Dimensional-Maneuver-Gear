@@ -1,0 +1,9 @@
+no_perm: &cJij heb geen toegang tot dat commando!
+player_only: &cDeze commando is alleen voor spelers!
+offline: &cDie speler is niet online!
+
+gear_name: &l&73D Maneuver Gear
+gear_lore: &8Voor extreme mobiliteit
+
+rope_name: &l&8Touw
+rope_lore: &&8gebruikt om te maken %&7|gear_name%
