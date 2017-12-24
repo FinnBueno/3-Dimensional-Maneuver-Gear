@@ -1,0 +1,9 @@
+no_perm: &cKeine Erlaubnis!
+player_only: &cDieser Befehl ist nur für Spieler!
+offline: &cDieser Spieler ist nicht online!
+
+gear_name: &l&73D Maneuver Gear
+gear_lore: &8Gibt extreme Mobilität
+
+rope_name: &l&8Seil
+rope_lore: &&8Zum Erstellen von %&7|gear_name%
